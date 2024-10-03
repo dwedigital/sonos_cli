@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sonos-control"
+version = "0.1.0"
+description = "conotrol sonos from terminal"
+authors = ["dwe"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+soco = "^0.30.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
