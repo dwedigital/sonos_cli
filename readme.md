@@ -32,6 +32,8 @@ sonos() {
 }
 ```
 
+After adding the alias you need to run `source ~/.bashrc` or `source ~/.zshrc` to apply the changes.
+
 The following commands are available:
 ```
 -e, --event:
