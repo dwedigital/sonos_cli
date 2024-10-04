@@ -20,7 +20,16 @@ pip install poetry
 To run the CLI, use the following command:
 
 ```bash
+sonos()
 poetry run python main.py [command]
+```
+
+to simplify this in shell add the following alias to your `.bashrc` or `.zshrc`:
+
+```bash
+sonos() {
+    poetry run python main.py $@
+}
 ```
 
 The following commands are available:
