@@ -20,7 +20,6 @@ pip install poetry
 To run the CLI, use the following command:
 
 ```bash
-sonos()
 poetry run python main.py [command]
 ```
 
@@ -33,6 +32,15 @@ sonos() {
 ```
 
 After adding the alias you need to run `source ~/.bashrc` or `source ~/.zshrc` to apply the changes.
+
+Once this has been added you can use it in terminal like so:
+  
+  ```bash
+  sonos [command]
+
+  # Example
+  sonos -e play -v 40
+  ```
 
 The following commands are available:
 ```
